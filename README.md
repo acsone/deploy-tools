@@ -5,7 +5,7 @@
 A container image with useful tools to automate deployments.
 
 - [bash](https://linux.die.net/man/1/bash)
-- [python3](https://www.python.org/doc/), >3.8, when bash is not enough
+- [python3](https://www.python.org/doc/), >=3.8, when bash is not enough
 - [curl](https://linux.die.net/man/1/curl)
 - [envsubst](https://linux.die.net/man/1/envsubst)
 - [helm](https://helm.sh/)
@@ -15,7 +15,7 @@ A container image with useful tools to automate deployments.
 - gnupg: [gpg](https://linux.die.net/man/1/gpg), ...
 - [salt-ssh](https://docs.saltproject.io/en/latest/topics/ssh/)
 
-It is based on Ubuntu 20.04 as base, but don't rely on it and if you do, be
+It is based on Ubuntu 20.04, but don't rely on it and if you do, be
 extra sure to pin a tag.
 
 It starts as user 0.
