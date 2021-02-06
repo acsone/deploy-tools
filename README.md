@@ -4,9 +4,9 @@
 
 A container image with useful tools to deploy to kubernetes.
 
-- bash
-- curl
-- envsubst
-- helm
-- kubectl
-- rsync
+- [bash](https://linux.die.net/man/1/bash)
+- [curl](https://linux.die.net/man/1/curl)
+- [envsubst](https://linux.die.net/man/1/envsubst)
+- [helm](https://helm.sh/)
+- [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/)
+- [rsync](https://linux.die.net/man/1/rsync)
