@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     gettext-base \
     curl \
     rsync \
+    openssh-client \
   && rm -fr /var/lib/apt/lists/*
 
 COPY ./install /tmp/install
