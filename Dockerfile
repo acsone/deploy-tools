@@ -20,3 +20,5 @@ RUN /tmp/install/get-kubectl
 
 # helm 3
 RUN /tmp/install/get-helm-3
+
+COPY config/99-acsone.conf /etc/ssh/ssh_config.d/
