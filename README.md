@@ -11,7 +11,10 @@ A container image with useful tools to automate deployments.
 - [helm](https://helm.sh/)
 - [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/)
 - [rsync](https://linux.die.net/man/1/rsync)
-- openssh-client: [ssh](https://linux.die.net/man/1/ssh), [ssh-agent](https://linux.die.net/man/1/ssh-agent), [sftp](https://linux.die.net/man/1/sftp), ...
+- openssh-client: [ssh](https://linux.die.net/man/1/ssh),
+  [ssh-agent](https://linux.die.net/man/1/ssh-agent),
+  [sftp](https://linux.die.net/man/1/sftp), ... with strict host key checking
+  disabled by default
 - gnupg: [gpg](https://linux.die.net/man/1/gpg), ...
 - [salt-ssh](https://docs.saltproject.io/en/latest/topics/ssh/)
 - [git](https://git-scm.com/)
