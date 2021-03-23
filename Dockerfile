@@ -9,6 +9,7 @@ ENV LANG=C.UTF-8 \
 # - curl
 # - rsync
 # - gettext-base, which provides envsubst
+# - git
 RUN apt-get update && apt-get install -y \
     bash \
     gettext-base \
@@ -16,6 +17,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     rsync \
     openssh-client \
+    git \
   && rm -fr /var/lib/apt/lists/*
 
 # kubectl
