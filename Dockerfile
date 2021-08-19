@@ -10,6 +10,8 @@ ENV LANG=C.UTF-8 \
 # - rsync
 # - gettext-base, which provides envsubst
 # - git
+# - unzip
+# - jq
 RUN apt-get update && apt-get install -y \
     bash \
     gettext-base \
