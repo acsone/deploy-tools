@@ -18,7 +18,8 @@ A container image with useful tools to automate deployments.
 - gnupg: [gpg](https://linux.die.net/man/1/gpg), ...
 - [salt-ssh](https://docs.saltproject.io/en/latest/topics/ssh/)
 - [git](https://git-scm.com/)
-- unzip
+- [unzip](https://linux.die.net/man/1/unzip)
+- [jq](https://stedolan.github.io/jq/)
 
 It is based on Ubuntu 20.04, but don't rely on it and if you do, be
 extra sure to pin a tag.

@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y \
     openssh-client \
     git \
     unzip \
+    jq \
   && rm -fr /var/lib/apt/lists/*
 
 # kubectl
