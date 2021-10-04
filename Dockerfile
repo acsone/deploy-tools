@@ -37,3 +37,4 @@ COPY install/get-salt /tmp
 RUN /tmp/get-salt
 
 COPY config/99-acsone.conf /etc/ssh/ssh_config.d/
+RUN chmod og-rw /etc/ssh/ssh_config.d/99-acsone.conf
