@@ -1,7 +1,5 @@
 # ACSONE deploy-tools
 
-[![Docker Repository on Quay](https://quay.io/repository/acsone/deploy-tools/status "Docker Repository on Quay")](https://quay.io/repository/acsone/deploy-tools)
-
 A container image with useful tools to automate deployments.
 
 - [bash](https://linux.die.net/man/1/bash)
