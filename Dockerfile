@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
     rsync \
     openssh-client \
     git \
+    zip \
     unzip \
     jq \
   && rm -fr /var/lib/apt/lists/*
