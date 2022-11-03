@@ -8,6 +8,7 @@ A container image with useful tools to automate deployments.
 - [envsubst](https://linux.die.net/man/1/envsubst)
 - [helm](https://helm.sh/)
 - [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/)
+- [kustomize](https://kubectl.docs.kubernetes.io/references/kustomize/)
 - [rsync](https://linux.die.net/man/1/rsync)
 - openssh-client: [ssh](https://linux.die.net/man/1/ssh),
   [ssh-agent](https://linux.die.net/man/1/ssh-agent),

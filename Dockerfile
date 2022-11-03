@@ -29,6 +29,10 @@ RUN apt-get update && apt-get install -y \
 COPY install/get-kubectl /tmp
 RUN /tmp/get-kubectl
 
+# kustomize
+COPY install/get-kustomize /tmp
+RUN /tmp/get-customize /usr/local/bin
+
 # helm 3
 COPY install/get-helm-3 /tmp
 RUN /tmp/get-helm-3
