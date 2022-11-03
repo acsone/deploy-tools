@@ -31,7 +31,7 @@ RUN /tmp/get-kubectl
 
 # kustomize
 COPY install/get-kustomize /tmp
-RUN /tmp/get-customize /usr/local/bin
+RUN /tmp/get-kustomize /usr/local/bin
 
 # helm 3
 COPY install/get-helm-3 /tmp
