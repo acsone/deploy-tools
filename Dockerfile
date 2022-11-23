@@ -12,6 +12,8 @@ ENV LANG=C.UTF-8 \
 # - git
 # - unzip
 # - jq
+# - postgresql-client
+# - pg-activity
 RUN apt-get update && apt-get install -y \
     bash \
     gettext-base \
@@ -23,7 +25,12 @@ RUN apt-get update && apt-get install -y \
     zip \
     unzip \
     jq \
-  && rm -fr /var/lib/apt/lists/*
+    python3-pip \
+    python3-psycopg2 \
+    && apt -y install --no-install-recommends postgresql-client \
+    && apt -y clean \
+    && rm -rf /var/lib/apt/lists/* \
+    && python3 -m pip install pg-activity
 
 # kubectl
 COPY install/get-kubectl /tmp
