@@ -30,7 +30,7 @@ RUN apt-get update && apt-get install -y \
     && apt -y install --no-install-recommends postgresql-client \
     && apt -y clean \
     && rm -rf /var/lib/apt/lists/* \
-    && pip install pg-activity
+    && python3 -m pip install pg-activity
 
 # kubectl
 COPY install/get-kubectl /tmp
