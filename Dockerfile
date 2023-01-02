@@ -15,6 +15,7 @@ ENV LANG=C.UTF-8 \
 # - postgresql-client
 # - pg-activity
 RUN apt-get update && apt-get install -y \
+    apache2-utils \
     bash \
     gettext-base \
     gnupg \
