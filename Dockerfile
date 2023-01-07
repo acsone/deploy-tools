@@ -49,5 +49,9 @@ RUN /tmp/get-helm-3
 COPY install/get-salt /tmp
 RUN /tmp/get-salt
 
+# unison
+COPY install/get-unison /tmp
+RUN /tmp/get-unison
+
 COPY config/99-acsone.conf /etc/ssh/ssh_config.d/
 RUN chmod og-rw /etc/ssh/ssh_config.d/99-acsone.conf

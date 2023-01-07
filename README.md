@@ -23,6 +23,7 @@ A container image with useful tools to automate deployments.
 - postgresql-client: https://www.postgresql.org/docs/current/reference-client.html
 - [pg_activity](https://pypi.org/project/pg-activity)
 - [htpasswd](https://httpd.apache.org/docs/current/programs/htpasswd.html)
+- [unison](https://github.com/bcpierce00/unison)
 
 It is based on Ubuntu 20.04, but don't rely on it and if you do, be
 extra sure to pin a tag.
