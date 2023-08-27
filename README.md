@@ -25,7 +25,7 @@ A container image with useful tools to automate deployments.
 - [htpasswd](https://httpd.apache.org/docs/current/programs/htpasswd.html)
 - [unison](https://github.com/bcpierce00/unison)
 
-It is based on Ubuntu 20.04, but don't rely on it and if you do, be
+It is based on Ubuntu 22.04, but don't rely on it and if you do, be
 extra sure to pin a tag.
 
 It starts as user 0.
