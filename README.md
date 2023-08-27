@@ -24,6 +24,7 @@ A container image with useful tools to automate deployments.
 - [pg_activity](https://pypi.org/project/pg-activity)
 - [htpasswd](https://httpd.apache.org/docs/current/programs/htpasswd.html)
 - [unison](https://github.com/bcpierce00/unison)
+- [rclone](https://rclone.org)
 
 It is based on Ubuntu 22.04, but don't rely on it and if you do, be
 extra sure to pin a tag.

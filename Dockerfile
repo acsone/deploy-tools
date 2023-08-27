@@ -53,5 +53,9 @@ RUN /tmp/get-salt
 COPY install/get-unison /tmp
 RUN /tmp/get-unison
 
+# rclone
+COPY install/get-rclone /tmp
+RUN /tmp/get-rclone
+
 COPY config/99-acsone.conf /etc/ssh/ssh_config.d/
 RUN chmod og-rw /etc/ssh/ssh_config.d/99-acsone.conf
