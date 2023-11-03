@@ -33,6 +33,10 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/* \
     && python3 -m pip install pg-activity
 
+# dive (need curl)
+COPY install/get-dive /tmp
+RUN /tmp/get-dive
+
 # kubectl
 COPY install/get-kubectl /tmp
 RUN /tmp/get-kubectl
