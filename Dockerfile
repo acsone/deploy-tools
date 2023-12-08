@@ -14,7 +14,7 @@ ENV LANG=C.UTF-8 \
 # - jq
 # - postgresql-client
 # - pg-activity
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get -y install --no-install-recommends \
     apache2-utils \
     bash \
     gettext-base \
@@ -28,7 +28,7 @@ RUN apt-get update && apt-get install -y \
     jq \
     python3-pip \
     python3-psycopg2 \
-    && apt -y install --no-install-recommends postgresql-client \
+    postgresql-client \
     && apt -y clean \
     && rm -rf /var/lib/apt/lists/* \
     && python3 -m pip install pg-activity
