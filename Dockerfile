@@ -38,7 +38,7 @@ COPY install/get-kubectl /tmp
 RUN /tmp/get-kubectl
 
 # buildctl
-COPY install/get-kubectl /tmp
+COPY install/get-buildctl /tmp
 RUN /tmp/get-buildctl
 
 # kustomize
