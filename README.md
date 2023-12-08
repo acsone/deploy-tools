@@ -3,6 +3,7 @@
 A container image with useful tools to automate deployments.
 
 - [bash](https://linux.die.net/man/1/bash)
+- [moby buildctl](https://github.com/moby/buildkit)
 - [python3](https://www.python.org/doc/), >=3.8, when bash is not enough
 - [curl](https://linux.die.net/man/1/curl)
 - [envsubst](https://linux.die.net/man/1/envsubst)

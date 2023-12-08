@@ -37,6 +37,10 @@ RUN apt-get update && apt-get install -y \
 COPY install/get-kubectl /tmp
 RUN /tmp/get-kubectl
 
+# buildctl
+COPY install/get-kubectl /tmp
+RUN /tmp/get-buildctl
+
 # kustomize
 COPY install/get-kustomize /tmp
 RUN /tmp/get-kustomize /usr/local/bin
