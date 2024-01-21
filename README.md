@@ -5,6 +5,8 @@ A container image with useful tools to automate deployments.
 - [bash](https://linux.die.net/man/1/bash)
 - [moby buildctl](https://github.com/moby/buildkit)
 - [python3](https://www.python.org/doc/), >=3.8, when bash is not enough
+- [python3-jinja2](https://jinja.palletsprojects.com/)
+- [python3-psycopg2](https://pypi.org/project/psycopg2/)
 - [curl](https://linux.die.net/man/1/curl)
 - [envsubst](https://linux.die.net/man/1/envsubst)
 - [helm](https://helm.sh/)

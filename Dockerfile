@@ -27,6 +27,7 @@ RUN apt-get update && apt-get -y install --no-install-recommends \
     unzip \
     jq \
     python3-pip \
+    python3-jinja2 \
     python3-psycopg2 \
     postgresql-client \
     && apt -y clean \
