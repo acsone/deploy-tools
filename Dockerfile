@@ -31,6 +31,7 @@ RUN apt-get update && apt-get -y install --no-install-recommends \
     python3-psycopg2 \
     postgresql-client \
     skopeo \
+    awscli \
     && apt -y clean \
     && rm -rf /var/lib/apt/lists/* \
     && python3 -m pip install pg-activity

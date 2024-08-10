@@ -29,6 +29,7 @@ A container image with useful tools to automate deployments.
 - [unison](https://github.com/bcpierce00/unison)
 - [rclone](https://rclone.org)
 - [skopeo](https://github.com/containers/skopeo)
+- [aws](https://docs.aws.amazon.com/cli/)
 
 It is based on Ubuntu 22.04, but don't rely on it and if you do, be
 extra sure to pin a tag.
